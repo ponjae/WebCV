@@ -4,8 +4,14 @@ body {
 }
 
 h1 {
-    margin-top: 0;
+    margin: 50px auto 0 auto;
     font-size: 5.625rem; /* 100% = 16px = 5.625em */
+    line-height: 2;
+}
+
+#first {
+    font-size: 1.75rem;
+    font-weight: normal;
 }
 
 p {
@@ -14,9 +20,7 @@ p {
     text-align: left;
 }
 
-h2 {
-    font-family: 'Montserrat', sans-serif;
-}
+
 
 table {
     border-collapse: collapse;
@@ -37,6 +41,13 @@ table {
     background-color: #F0E5CF;
     position: relative;
     padding-top: 100px;
+    color: #817d76;
+}
+
+.skills {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .middle-container {
@@ -72,6 +83,19 @@ table {
     position: absolute;
     left: 300px;
     bottom: 300px;
+}
+
+.btn {
+    color: #F0E5CF;;
+}
+
+.footer-link {
+    color: #F0E5CF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #0a0907;
 }
 
 /* F7F6F2  C8C6C6 */
